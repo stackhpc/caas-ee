@@ -1,0 +1,9 @@
+---
+# This file is used to generate the bulk of the Dockerfile using ansible-builder
+
+version: 1
+
+dependencies:
+  galaxy: requirements.yml
+  python: requirements.txt
+  system: bindep.txt
